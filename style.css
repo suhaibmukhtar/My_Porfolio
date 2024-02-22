@@ -1986,3 +1986,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 .social-item {
   margin: 0 10px; /* Adjust margin as needed */
 }
+#personal{
+	    border-radius: 61px;
+    color: black;
+    border: 2px solid black;
+    padding: 2px 29%;
+    background-color: white;
+}
