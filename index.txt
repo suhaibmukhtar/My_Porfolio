@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Suhaib Mukhtar
+Suhaib Mukhtar
+Data scientist
 
 Show Contacts
 
 Email
-richard@example.com
+suhaibmukhtar2@gmail.com
 
 Phone
-+1 (213) 352-2795
++91 6005 70-9811
 
 Birthday
-June 23, 1982
+July 15, 2001
 
 Location
-Sacramento, California, USA
+srinagar, j&k, India
 
 # navbar
 
