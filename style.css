@@ -522,6 +522,14 @@ main {
   gap: 20px;
 }
 
+/* .service-item {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+} */
 .service-item {
   position: relative;
   background: var(--border-gradient-onyx);
@@ -529,6 +537,11 @@ main {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth hover effect */
+}
+
+.service-item:hover {
+  transform: scale(1.05); /* Scale up the item on hover */
 }
 
 .service-item::before {
