@@ -494,6 +494,21 @@ main {
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
+#personal {
+  border-radius: 61px;
+  color: black;
+  border: 2px solid black;
+  padding: 2px 29%;
+  background-color: white;
+  text-decoration: none; 
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; 
+}
+#personal:hover {
+  background-color: black;
+  color: white; 
+  border-color: white; 
+}
 
 .about .article-title { margin-bottom: 15px; }
 
@@ -1986,18 +2001,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 .social-item {
   margin: 0 10px; /* Adjust margin as needed */
 }
-#personal a {
-  border-radius: 61px;
-  color: black;
-  border: 2px solid black;
-  padding: 2px 29%;
-  background-color: white;
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Add transition for smooth hover effect */
-}
 
-#personal a:hover {
-  background-color: black; /* Change background color on hover */
-  color: white; /* Change text color on hover */
-  border-color: white; /* Change border color on hover */
-}
+
 
